@@ -7,31 +7,31 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/historyView"
+        android:id="@+id/history"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/history_name" />
 
     <TextView
-        android:id="@+id/galleryView"
+        android:id="@+id/gallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/gallery_name" />
 
     <TextView
-        android:id="@+id/waysView"
+        android:id="@+id/ways"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/ways_name" />
 
     <TextView
-        android:id="@+id/accommodationView"
+        android:id="@+id/accommodation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/accommodation_name" />
 
     <TextView
-        android:id="@+id/contactView"
+        android:id="@+id/contact"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/contact_name" />

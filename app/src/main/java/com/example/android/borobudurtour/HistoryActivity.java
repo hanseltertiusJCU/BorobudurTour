@@ -13,5 +13,9 @@ public class HistoryActivity extends AppCompatActivity {
 
         // Find the ViewPager id to be able to swipe between fragments
         ViewPager viewPager = (ViewPager) findViewById(R.id.historyViewPager);
+
+        HistoryFragmentPagerAdapter adapter = new HistoryFragmentPagerAdapter(getSupportFragmentManager());
+
+        viewPager.setAdapter(adapter);
     }
 }
