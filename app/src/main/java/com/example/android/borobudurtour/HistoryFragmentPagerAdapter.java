@@ -7,6 +7,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class HistoryFragmentPagerAdapter extends FragmentPagerAdapter{
     public HistoryFragmentPagerAdapter(FragmentManager fm){super(fm);}
 
+    // Get the fragment based on the position
     @Override
     public Fragment getItem(int position) {
 
@@ -38,7 +39,7 @@ public class HistoryFragmentPagerAdapter extends FragmentPagerAdapter{
         return fragmentView;
     }
 
-    // There will be 6 fragments
+    // Get the number of fragments
     @Override
     public int getCount() {
         return 6;
