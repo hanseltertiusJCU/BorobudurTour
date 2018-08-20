@@ -5,7 +5,17 @@
     <string name="ways_name">Ways</string>
     <string name="accommodation_name">Accommodation</string>
     <string name="contact_name">Contact</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="history_section"><b>History</b></string>
+    <string name="history_section_content">The Sailendra dynasty built this Largest Buddhist
+        monument in the world between AD 780 and 840. The Sailendra are the ruling dynasty in
+        Central Java at the time. It was built as a place for glorifying Buddha
+        and a pilgrimage spot to guide mankind from worldly desires into
+        enlightenment and wisdom according to Buddha.
+        This monument was discovered by the British in 1814 under Sir Thomas Stanford Raffles,
+        it was until 1835 that the entire area of the temple has been cleared.
+        \nBorobudur built in the style of Mandala which symbolizes the
+        universe in Buddhist teaching. This structure is square shaped with
+        four entry point and a circular center point. Working from the exterior to the interior,
+        three zones of consciousness are represented,
+        with the central sphere representing unconsciousness or Nirvana.</string>
 </resources>
