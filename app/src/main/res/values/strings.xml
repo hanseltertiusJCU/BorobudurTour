@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">BorobudurTour</string>
+    <string name="history_name">History</string>
+    <string name="gallery_name">Gallery</string>
+    <string name="ways_name">Ways</string>
+    <string name="accommodation_name">Accommodation</string>
+    <string name="contact_name">Contact</string>
 </resources>
