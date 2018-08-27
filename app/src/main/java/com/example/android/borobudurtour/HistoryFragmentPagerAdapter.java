@@ -1,10 +1,14 @@
 package com.example.android.borobudurtour;
 
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 public class HistoryFragmentPagerAdapter extends FragmentPagerAdapter{
+
+    private String[] historyTabTitles = new String[] {"History", "Zone 1", "Zone 2", "Zone 3", "Reliefs", "Temple Corridors"};
+
     public HistoryFragmentPagerAdapter(FragmentManager fm){super(fm);}
 
     // Get the fragment based on the position
@@ -43,5 +47,11 @@ public class HistoryFragmentPagerAdapter extends FragmentPagerAdapter{
     @Override
     public int getCount() {
         return 6;
+    }
+
+    @Nullable
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return historyTabTitles[position];
     }
 }

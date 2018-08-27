@@ -1,8 +1,10 @@
 package com.example.android.borobudurtour;
 
+import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TableLayout;
 
 public class HistoryActivity extends AppCompatActivity {
 
@@ -15,9 +17,15 @@ public class HistoryActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.historyViewPager);
 
         // Create an adapter to be attached to ViewPager
-        HistoryFragmentPagerAdapter adapter = new HistoryFragmentPagerAdapter(getSupportFragmentManager());
+        HistoryFragmentPagerAdapter historyAdapter = new HistoryFragmentPagerAdapter(getSupportFragmentManager());
 
         // Set the ViewPager
-        viewPager.setAdapter(adapter);
+        viewPager.setAdapter(historyAdapter);
+
+        // Create the TabLayout
+        TabLayout historyTabLayout = (TabLayout) findViewById(R.id.historyTab);
+
+        // Set the TabLayout onto the ViewPager
+        historyTabLayout.setupWithViewPager(viewPager);
     }
 }
