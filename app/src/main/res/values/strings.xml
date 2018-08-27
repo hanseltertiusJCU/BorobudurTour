@@ -13,9 +13,135 @@
         enlightenment and wisdom according to Buddha.
         This monument was discovered by the British in 1814 under Sir Thomas Stanford Raffles,
         it was until 1835 that the entire area of the temple has been cleared.
-        \nBorobudur built in the style of Mandala which symbolizes the
+        \n\n
+        Borobudur built in the style of Mandala which symbolizes the
         universe in Buddhist teaching. This structure is square shaped with
         four entry point and a circular center point. Working from the exterior to the interior,
         three zones of consciousness are represented,
         with the central sphere representing unconsciousness or Nirvana.</string>
+    <string name="kamadhatu_section"><b>Zone 1: Kamadhatu</b></string>
+    <string name="kamadhatu_section_content"><i>The phenomenal world,the world inhabited by
+        common people.</i>
+        \n\n
+        Borobudur’s hidden Kamadhatu level consists of 160 reliefs depicting scenes of
+        Karmawibhangga Sutra, the law of cause and effect. Illustrating the human
+        behavior of desire, the reliefs depict robbing, killing, rape, torture and defamation.
+        \n\n
+        A corner of the covering base has been permanently removed to
+        allow visitors to see the hidden foot, and some of the reliefs.
+        Photography of the entire collection of 160 reliefs is displayed at the
+        Borobudur Museum which is within the Borobudur Archaeological Park.</string>
+    <string name="rapudhatu_section"><b>Zone 2: Rapudhatu</b></string>
+    <string name="rapudhatu_section_content"><i>The transitional sphere, humans are 
+        released from worldly matters.</i>
+        \n\n
+        The four square levels of Rapadhatu contain galleries of carved stone reliefs, 
+        as well as a chain of niches containing statues of Buddha. 
+        In total there are 328 Buddha on these balustrade levels which also have a 
+        great deal of purely ornate reliefs.
+        \n\n
+        The Sanskrit manuscripts that are depicted on this level over 1 300 reliefs are 
+        Gandhawyuha, Lalitawistara, Jataka and Awadana. They stretch for 2.5km. 
+        In addition there are 1 212 decorative panels.</string>
+    <string name="arupadhatu_section"><b>Zone 3: Arupadhatu</b></string>
+    <string name="arupadhatu_section_content"><i>The highest sphere, the abode of the gods.</i>
+        \n\n
+        The three circular terraces leading to a central dome or stupa represent the rising above
+        the world, and these terraces are a great deal less ornate, the purity of form is paramount.
+        \n\n
+        The terraces contain circles of perforated stupas, an inverted bell shape,
+        containing sculptures of Buddha, who face outward from the temple. There are 72 of these
+        stupas in total. The impressive central stupa is currently not as high as the original
+        version, which rose 42m above ground level, the base is 9.9m in diameter.
+        Unlike the stupas surrounding it, the central stupa is empty and conflicting reports suggest
+        that the central void contained relics, and other reports
+        suggest it has always been empty.</string>
+    <string name="reliefs_section"><b>The Reliefs</b></string>
+    <string name="reliefs_section_content">The total of 504 Buddha are in meditative pose, 
+        and the 6 different hand positions represented throughout the temple, 
+        often according to the direction the Buddha faces.</string>
+    <string name="temple_corridors_section">The Temple Corridors</string>
+    <string name="temple_corridors_section_content">During the restoration in the
+        early 20th century, it was discovered that two smaller temples in the region,
+        called Pawon and Mendut, are positioned accurately in line with the Borobudur Temple.
+        Pawon temple is located 1.15 km from Borobudur while Mendut Temple is located 3 km
+        from Borobudur. It is believed that there is mutual religious relationship between the
+        three temples, although the exact ritual process remains a mystery.
+
+        The three temples are used to form a route for the Waisak Day Festival held each year
+        on the day of the full moon in April or May. The festival commemorates the birth,
+        enlightenment and the death of Gautama Buddha.</string>
+    <string name="how_to_get_there_section"><b>How to Get There</b></string>
+    <string name="how_to_get_there_section_content">Large cities with international flights
+        near Borobudur are Semarang and Yogyakarta. Both cities serve flights from Kuala Lumpur
+        and Singapore, but Yogyakarta is closer to Borobudur (40 km) than Semarang (90 km).
+        Another city nearby Borobudur is Magelang (17 km) which has a direct bus route to Borobudur.
+        Major railway hub also only present in Yogyakarta and Semarang. Semarang also has a
+        large port (Tanjung Mas) serving international cruise ships.</string>
+    <string name="bus_yogyakarta_section"><b>Bus from Yogyakarta</b></string>
+    <string name="bus_yogyakarta_section_content">From downtown Yogyakarta, you must take a Trans
+        Jogja bus to Jombor bus station. Look up for bus line 2A &amp; 2B to Jombor.
+        From Jombor bus station, take a local bus to Borobudur.
+        \n\n
+        From the Borobudur Terminal you can continue to the Temple on foot 
+        or ride pedicab or indonesian horse carriage.
+        \n\n
+        Be advised that the last return bus to Yogyakarta is at 15.00. You can still return to 
+        Yogya from Magelang Bus Station where hourly buses to Yogyakarta available until night.
+        \n\n
+        There is a direct bus available from Adisutjipto airport to Borobudur or 
+        nearby city Magelang. Look up for "DAMRI" buses.</string>
+    <string name="private_vehicle_yogyakarta_section"><b>Private Vehicle from Yogyakarta</b></string>
+    <string name="private_vehicle_yogyakarta_section_content">Route to Borobudur from Yogyakarta is
+        quite straightforward . First you need to go through Jalan Magelang.
+        The complete route is Jogja - Jl. Magelang - Sleman - Tempel - Salam - Muntilan -
+        Palbapang - Mendut - Borobudur Parking lot. The distance is about 45 km.
+        \n\n
+        The easy way is provided by taxi with a fixed rate of around Rp 300.000</string>
+    <string name="bus_semarang_section"><b>Bus From Semarang</b></string>
+    <string name="bus_semarang_section_content">Semarang has a bus rapid transit that can take you
+        to the bus station. From Semarang you have to take an intercity bus bound to Jogja or
+        Magelang. You can stop at Magelang bus station, or the Palpabang intersection.
+        From Magelang you can continue with local bus to Borobudur bus station.
+        \n\n
+        Semarang also have several shuttle services to Jogja or Magelang.
+        The Journey from Semarang to Borobudur will take 3.5 hours</string>
+    <string name="ticket_info_section"><b>Ticket Information</b></string>
+    <string name="ticket_info_section_content">One time entrance ticket per person
+        \n\n
+        TWC Borobudur
+        \n\n
+        &#8226;>10 years old: USD 25
+        \n&#8226;aged 3 to 10: USD 15
+        \n&#8226;TWC Borobudur, Mendut, and Pawon
+        \n\n
+        &#8226;>10 years old: USD 30
+        \n&#8226;aged 3 to 10: USD 20
+        \n&#8226;Ticket includes Rp 1.000 insurance premium
+        \n\n
+        Ticket Packages
+        \n\n
+        Borobudur – Prambanan
+        \n\n
+        &#8226;>10 years old: USD 40
+        \n&#8226;aged 3 to 10: USD 25
+        \n&#8226;Borobudur – Ratu Boko
+        \n\n
+        &#8226;>10 years old: USD 40
+        \n&#8226;aged 3 to 10: USD 25
+        \n&#8226;Multiple Days Tickets
+        \n\n
+        Borobudur 2 days
+        \n\n
+        &#8226;>10 years old: USD 40
+        \n&#8226;aged 3 to 10: USD 20
+        \n&#8226;Borobudur 3 days
+        \n\n
+        &#8226;>10 years old: USD 60
+        \n&#8226;aged 3 to 10: USD 30
+        \n&#8226;Borobudur 4-7 days
+        \n\n
+        &#8226;>10 years old: USD 100
+        \n&#8226;aged 3 to 10: USD 50</string>
+
 </resources>
