@@ -1,16 +1,20 @@
 package com.example.android.borobudurtour;
 
 public class Items {
-    private String mStringItem;
+    private String mStringItemTitle;
+    private String mStringItemContent;
     private int mImageResource;
 
-    // Constructor for taking a String
-    public Items(String stringItem){
-        mStringItem = stringItem;
+    // Constructor for taking two Strings in TextView
+    public Items(String stringItemTitle, String stringItemContent){
+        mStringItemTitle = stringItemTitle;
+        mStringItemContent = stringItemContent;
     }
 
-    // Constructor for taking an ImageView
-    public Items(int imageResource){
+    // Constructor for taking two Strings in TextView and an ImageView
+    public Items(String stringItemTitle, String stringItemContent, int imageResource){
+        mStringItemTitle = stringItemTitle;
+        mStringItemContent = stringItemContent;
         mImageResource = imageResource;
     }
 
@@ -19,6 +23,6 @@ public class Items {
     }
 
     public String getmStringItem() {
-        return mStringItem;
+        return mStringItemTitle;
     }
 }
