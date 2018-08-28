@@ -69,4 +69,9 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         return listItemView;
     }
 
+    @Override
+    public boolean isEnabled(int position) {
+        return false;
+    }
+
 }

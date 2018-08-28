@@ -3,8 +3,7 @@
     android:id="@+id/item_layout"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools">
+    android:layout_height="match_parent">
 
     <ImageView
         android:id="@+id/content_image"
@@ -15,12 +14,11 @@
         android:id="@+id/text_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="@string/history_section"/>
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/text_content"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:text="@string/history_section_content"/>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
