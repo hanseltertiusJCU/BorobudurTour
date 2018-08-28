@@ -1,26 +1,21 @@
 package com.example.android.borobudurtour;
 
-public class Items {
+public class Item {
     private String mStringItemTitle;
     private String mStringItemContent;
-    private int mImageResource;
+    private int mImageResource = NO_IMAGE;
     // make a variable to determine whether the views are visible or not
+    private static final int NO_IMAGE = -1;
 
     // Constructor for taking two Strings in TextView
-    public Items(String stringItemTitle, String stringItemContent){
+    public Item(String stringItemTitle, String stringItemContent){
         mStringItemTitle = stringItemTitle;
         mStringItemContent = stringItemContent;
     }
 
-    // Constructor for taking two Strings in TextView and an ImageView
-    public Items(String stringItemTitle, String stringItemContent, int imageResource){
-        mStringItemTitle = stringItemTitle;
-        mStringItemContent = stringItemContent;
+    // Constructor for taking an ImageView
+    public Item(int imageResource){
         mImageResource = imageResource;
-    }
-
-    public int getmImageResource() {
-        return mImageResource;
     }
 
     public String getmStringItemTitle() {
@@ -30,4 +25,14 @@ public class Items {
     public String getmStringItemContent() {
         return mStringItemContent;
     }
+
+    public int getmImageResource() {
+        return mImageResource;
+    }
+
+    public boolean hasItemTitle(){return mStringItemTitle != null;}
+
+    public boolean hasItemContent(){return mStringItemContent != null;}
+
+    public boolean hasImageResource(){return mImageResource != NO_IMAGE;}
 }
