@@ -46,6 +46,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
         TextView contact = (TextView) findViewById(R.id.contact);
+
+        contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent contactIntent = new Intent(MainActivity.this, ContactActivity.class);
+                startActivity(contactIntent);
+            }
+        });
     }
 
 
