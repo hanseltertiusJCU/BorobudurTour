@@ -7,27 +7,21 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class AccommodationActivity extends AppCompatActivity {
+public class GalleryActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_accomodation);
+        setContentView(R.layout.activity_gallery);
 
         // Find the ViewPager id to be able to swipe between fragments
-        ViewPager viewPager = (ViewPager) findViewById(R.id.accommodationViewPager);
+        ViewPager viewPager = (ViewPager) findViewById(R.id.galleryViewPager);
 
         // Create an adapter to be attached to ViewPager
-        AccommodationFragmentPagerAdapter accommodationAdapter = new AccommodationFragmentPagerAdapter(getSupportFragmentManager());
+        GalleryFragmentPagerAdapter galleryAdapter = new GalleryFragmentPagerAdapter(getSupportFragmentManager());
 
         // Set the ViewPager
-        viewPager.setAdapter(accommodationAdapter);
-
-        // Create the TabLayout
-        TabLayout accommodationTabLayout = (TabLayout) findViewById(R.id.accommodationTab);
-
-        // Set the TabLayout onto the ViewPager
-        accommodationTabLayout.setupWithViewPager(viewPager);
+        viewPager.setAdapter(galleryAdapter);
     }
 
     /**

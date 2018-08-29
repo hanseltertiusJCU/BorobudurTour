@@ -25,6 +25,14 @@ public class MainActivity extends AppCompatActivity {
 
         TextView gallery = (TextView) findViewById(R.id.gallery);
 
+        gallery.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent galleryIntent = new Intent(MainActivity.this, GalleryActivity.class);
+                startActivity(galleryIntent);
+            }
+        });
+
         TextView ways = (TextView) findViewById(R.id.ways);
 
         ways.setOnClickListener(new View.OnClickListener() {

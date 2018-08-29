@@ -18,16 +18,16 @@ public class WaysActivity extends AppCompatActivity {
         ViewPager viewPager = (ViewPager) findViewById(R.id.waysViewPager);
 
         // Create an adapter to be attached to ViewPager
-        WaysFragmentPagerAdapter historyAdapter = new WaysFragmentPagerAdapter(getSupportFragmentManager());
+        WaysFragmentPagerAdapter waysAdapter = new WaysFragmentPagerAdapter(getSupportFragmentManager());
 
         // Set the ViewPager
-        viewPager.setAdapter(historyAdapter);
+        viewPager.setAdapter(waysAdapter);
 
         // Create the TabLayout
-        TabLayout historyTabLayout = (TabLayout) findViewById(R.id.waysTab);
+        TabLayout waysTabLayout = (TabLayout) findViewById(R.id.waysTab);
 
         // Set the TabLayout onto the ViewPager
-        historyTabLayout.setupWithViewPager(viewPager);
+        waysTabLayout.setupWithViewPager(viewPager);
     }
 
     /**

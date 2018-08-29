@@ -46,7 +46,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
         </activity>
-        <activity android:name=".ContactActivity"
+        <activity
+            android:name=".ContactActivity"
             android:label="@string/contact_name"
             android:parentActivityName=".MainActivity">
 
@@ -54,6 +55,16 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".GalleryActivity"
+            android:label="@string/gallery_name"
+            android:parentActivityName=".MainActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+
         </activity>
     </application>
 

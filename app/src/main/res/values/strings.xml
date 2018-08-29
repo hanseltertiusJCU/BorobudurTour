@@ -124,4 +124,7 @@
     <string name="call_center">Call Center: 024 8646 2345</string>
     <string name="email_one">Email: marketing@borobudurpark.co.id</string>
     <string name="email_two">Email: info@borobudurpark.co.id</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
