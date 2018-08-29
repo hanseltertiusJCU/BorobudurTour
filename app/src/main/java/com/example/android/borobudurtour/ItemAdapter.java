@@ -69,6 +69,7 @@ public class ItemAdapter extends ArrayAdapter<Item> {
         return listItemView;
     }
 
+    // Make the item not to be clickable
     @Override
     public boolean isEnabled(int position) {
         return false;

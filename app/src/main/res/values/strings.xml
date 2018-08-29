@@ -95,41 +95,33 @@
         \n\nSemarang also have several shuttle services to Jogja or Magelang.
         The Journey from Semarang to Borobudur will take 3.5 hours</string>
     <string name="ticket_info_section"><b>Ticket Information</b></string>
-    <string name="ticket_info_section_content">One time entrance ticket per person
-        \n\n
-        TWC Borobudur
-        \n\n
-        &#8226;>10 years old: USD 25
+    <string name="one_time_section"><b>One time entrance ticket per person</b></string>
+    <string name="one_time_section_content">TWC Borobudur
+        \n\n&#8226;>10 years old: USD 25
         \n&#8226;aged 3 to 10: USD 15
-        \n&#8226;TWC Borobudur, Mendut, and Pawon
-        \n\n
-        &#8226;>10 years old: USD 30
+        \nTWC Borobudur, Mendut, and Pawon
+        \n\n&#8226;>10 years old: USD 30
         \n&#8226;aged 3 to 10: USD 20
-        \n&#8226;Ticket includes Rp 1.000 insurance premium
-        \n\n
-        Ticket Packages
-        \n\n
-        Borobudur – Prambanan
-        \n\n
-        &#8226;>10 years old: USD 40
+        \nTicket includes Rp 1.000 insurance premium</string>
+    <string name="ticket_package_section"><b>Ticket Packages</b></string>
+    <string name="ticket_package_section_content">Borobudur – Prambanan
+        \n\n&#8226;>10 years old: USD 40
         \n&#8226;aged 3 to 10: USD 25
         \n&#8226;Borobudur – Ratu Boko
-        \n\n
-        &#8226;>10 years old: USD 40
+        \n\n&#8226;>10 years old: USD 40
         \n&#8226;aged 3 to 10: USD 25
-        \n&#8226;Multiple Days Tickets
-        \n\n
-        Borobudur 2 days
-        \n\n
-        &#8226;>10 years old: USD 40
+        </string>
+    <string name="multiple_days_section"><b>Multiple Days Tickets</b></string>
+    <string name="multiple_days_section_content">Borobudur 2 days
+        \n\n&#8226;>10 years old: USD 40
         \n&#8226;aged 3 to 10: USD 20
-        \n&#8226;Borobudur 3 days
-        \n\n
-        &#8226;>10 years old: USD 60
+        \nBorobudur 3 days
+        \n\n&#8226;>10 years old: USD 60
         \n&#8226;aged 3 to 10: USD 30
-        \n&#8226;Borobudur 4-7 days
-        \n\n
-        &#8226;>10 years old: USD 100
+        \nBorobudur 4-7 days
+        \n\n&#8226;>10 years old: USD 100
         \n&#8226;aged 3 to 10: USD 50</string>
-
+    <string name="call_center">Call Center: 024 8646 2345</string>
+    <string name="email_one">Email: marketing@borobudurpark.co.id</string>
+    <string name="email_two">Email: info@borobudurpark.co.id</string>
 </resources>

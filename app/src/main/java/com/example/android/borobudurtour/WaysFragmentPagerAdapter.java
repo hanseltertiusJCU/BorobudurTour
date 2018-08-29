@@ -4,11 +4,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-public class HistoryFragmentPagerAdapter extends FragmentPagerAdapter{
+public class WaysFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    private String[] historyTabTitles = new String[] {"History", "Zone 1", "Zone 2", "Zone 3", "Reliefs", "Temple Corridors"};
+    private String[] waysTabTitles = new String[] {"Overview", "Bus from Yogyakarta", "Private vehicle from Yogyakarta", "Bus from Semarang"};
 
-    public HistoryFragmentPagerAdapter(FragmentManager fm){super(fm);}
+    public WaysFragmentPagerAdapter(FragmentManager fm){super(fm);}
 
     // Get the fragment based on the position
     @Override
@@ -18,22 +18,16 @@ public class HistoryFragmentPagerAdapter extends FragmentPagerAdapter{
 
         switch (position){
             case 0:
-                fragmentView = new HistoryFragment();
+                fragmentView = new OverviewFragment();
                 break;
             case 1:
-                fragmentView = new KamadhatuFragment();
+                fragmentView = new YogyaBusFragment();
                 break;
             case 2:
-                fragmentView = new RapudhatuFragment();
+                fragmentView = new YogyaPrivateFragment();
                 break;
             case 3:
-                fragmentView = new ArupadhatuFragment();
-                break;
-            case 4:
-                fragmentView = new ReliefsFragment();
-                break;
-            case 5:
-                fragmentView = new TempleCorridorsFragment();
+                fragmentView = new SemarangBusFragment();
                 break;
             default:
                 fragmentView = null;
@@ -45,12 +39,12 @@ public class HistoryFragmentPagerAdapter extends FragmentPagerAdapter{
     // Get the number of fragments
     @Override
     public int getCount() {
-        return 6;
+        return 4;
     }
 
     // Get page title for TabLayout
     @Override
     public CharSequence getPageTitle(int position) {
-        return historyTabTitles[position];
+        return waysTabTitles[position];
     }
 }

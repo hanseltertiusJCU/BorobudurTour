@@ -17,6 +17,11 @@ import java.util.ArrayList;
  */
 public class KamadhatuFragment extends Fragment {
 
+    // Create the constructor that doesn't require input parameter
+    public KamadhatuFragment(){
+
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

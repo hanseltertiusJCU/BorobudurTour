@@ -17,6 +17,11 @@ import java.util.ArrayList;
  */
 public class RapudhatuFragment extends Fragment {
 
+    // Create the constructor that doesn't require input parameter
+    public RapudhatuFragment(){
+
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

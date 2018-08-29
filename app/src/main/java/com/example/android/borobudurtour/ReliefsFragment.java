@@ -17,6 +17,11 @@ import java.util.ArrayList;
  */
 public class ReliefsFragment extends Fragment {
 
+    // Create the constructor that doesn't require input parameter
+    public ReliefsFragment(){
+
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

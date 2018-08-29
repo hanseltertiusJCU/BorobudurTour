@@ -27,7 +27,23 @@ public class MainActivity extends AppCompatActivity {
 
         TextView ways = (TextView) findViewById(R.id.ways);
 
-        TextView accomodation = (TextView) findViewById(R.id.accommodation);
+        ways.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent waysIntent = new Intent(MainActivity.this, WaysActivity.class);
+                startActivity(waysIntent);
+            }
+        });
+
+        TextView accommodation = (TextView) findViewById(R.id.accommodation);
+
+        accommodation.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent accommodationIntent = new Intent(MainActivity.this, AccommodationActivity.class);
+                startActivity(accommodationIntent);
+            }
+        });
 
         TextView contact = (TextView) findViewById(R.id.contact);
     }

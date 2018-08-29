@@ -11,16 +11,16 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ArupadhatuFragment extends Fragment {
+public class OneTimeTicketFragment extends Fragment {
 
-    // Create the constructor that doesn't require input parameter
-    public ArupadhatuFragment(){
 
+    public OneTimeTicketFragment() {
+        // Required empty public constructor
     }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -31,7 +31,7 @@ public class ArupadhatuFragment extends Fragment {
         // Create a new ArrayList object that takes a custom class named Item
         ArrayList<Item> items = new ArrayList<Item>();
 
-        items.add(new Item(getString(R.string.arupadhatu_section), getString(R.string.arupadhatu_section_content)));
+        items.add(new Item(getString(R.string.one_time_section), getString(R.string.one_time_section_content)));
 
         // Create a custom ArrayAdapter object called ItemAdapter
         ItemAdapter adapter = new ItemAdapter(getActivity(), items);

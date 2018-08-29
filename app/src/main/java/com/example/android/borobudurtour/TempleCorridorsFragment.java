@@ -15,6 +15,12 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class TempleCorridorsFragment extends Fragment {
+
+    // Create the constructor that doesn't require input parameter
+    public TempleCorridorsFragment(){
+
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
