@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="primary_color">#FBC02D</color>
+    <color name="primary_dark_color">#F9A825</color>
+    <color name="tab_text_color">#9E9E9E</color>
+    <color name="menu_color">#FFFFFF</color>
+    <color name="content_item_text_color">#000000</color>
+    <color name="background_color">#FFF9C4</color>
+    <color name="background_color_menu_view">#FFEB3B</color>
 </resources>

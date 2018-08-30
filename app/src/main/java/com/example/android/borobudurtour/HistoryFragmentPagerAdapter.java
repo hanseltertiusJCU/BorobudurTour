@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class HistoryFragmentPagerAdapter extends FragmentPagerAdapter{
 
-    private String[] historyTabTitles = new String[] {"History", "Zone 1", "Zone 2", "Zone 3", "Reliefs", "Temple Corridors"};
+    private String[] historyTabTitles = new String[] {"History", "Zone 1", "Zone 2", "Zone 3", "Relief", "Temple"};
 
     public HistoryFragmentPagerAdapter(FragmentManager fm){super(fm);}
 

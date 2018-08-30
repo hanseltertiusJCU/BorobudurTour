@@ -4,37 +4,74 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/background_color"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/history"
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/history_name" />
+        android:background="@color/background_color_menu_view">
 
-    <TextView
-        android:id="@+id/gallery"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/gallery_name" />
+        <TextView
+            android:id="@+id/history"
+            style="@style/MenuStyle"
+            android:text="@string/history_name"
+            android:background="?android:attr/selectableItemBackground"/>
 
-    <TextView
-        android:id="@+id/ways"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/ways_name" />
+    </FrameLayout>
 
-    <TextView
-        android:id="@+id/accommodation"
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/accommodation_name" />
+        android:background="@color/background_color_menu_view">
 
-    <TextView
-        android:id="@+id/contact"
+        <TextView
+            android:id="@+id/gallery"
+            style="@style/MenuStyle"
+            android:text="@string/gallery_name"
+            android:background="?android:attr/selectableItemBackground"/>
+
+    </FrameLayout>
+
+
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/contact_name" />
+        android:background="@color/background_color_menu_view">
+
+        <TextView
+            android:id="@+id/ways"
+            style="@style/MenuStyle"
+            android:text="@string/ways_name"
+            android:background="?android:attr/selectableItemBackground"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_color_menu_view">
+
+        <TextView
+            android:id="@+id/accommodation"
+            style="@style/MenuStyle"
+            android:text="@string/accommodation_name"
+            android:background="?android:attr/selectableItemBackground"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background_color_menu_view">
+
+        <TextView
+            android:id="@+id/contact"
+            style="@style/MenuStyle"
+            android:text="@string/contact_name"
+            android:background="?android:attr/selectableItemBackground"/>
+
+    </FrameLayout>
 
 
 </LinearLayout>

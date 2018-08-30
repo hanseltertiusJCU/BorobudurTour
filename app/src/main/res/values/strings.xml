@@ -97,33 +97,36 @@
     <string name="ticket_info_section"><b>Ticket Information</b></string>
     <string name="one_time_section"><b>One time entrance ticket per person</b></string>
     <string name="one_time_section_content">TWC Borobudur
-        \n\n&#8226;>10 years old: USD 25
+        \n&#8226;>10 years old: USD 25
         \n&#8226;aged 3 to 10: USD 15
-        \nTWC Borobudur, Mendut, and Pawon
-        \n\n&#8226;>10 years old: USD 30
+        \n\nTWC Borobudur, Mendut, and Pawon
+        \n&#8226;>10 years old: USD 30
         \n&#8226;aged 3 to 10: USD 20
         \nTicket includes Rp 1.000 insurance premium</string>
     <string name="ticket_package_section"><b>Ticket Packages</b></string>
     <string name="ticket_package_section_content">Borobudur – Prambanan
-        \n\n&#8226;>10 years old: USD 40
+        \n&#8226;>10 years old: USD 40
         \n&#8226;aged 3 to 10: USD 25
-        \n&#8226;Borobudur – Ratu Boko
-        \n\n&#8226;>10 years old: USD 40
+        \n\nBorobudur – Ratu Boko
+        \n&#8226;>10 years old: USD 40
         \n&#8226;aged 3 to 10: USD 25
         </string>
     <string name="multiple_days_section"><b>Multiple Days Tickets</b></string>
     <string name="multiple_days_section_content">Borobudur 2 days
-        \n\n&#8226;>10 years old: USD 40
+        \n&#8226;>10 years old: USD 40
         \n&#8226;aged 3 to 10: USD 20
-        \nBorobudur 3 days
-        \n\n&#8226;>10 years old: USD 60
+        \n\nBorobudur 3 days
+        \n&#8226;>10 years old: USD 60
         \n&#8226;aged 3 to 10: USD 30
-        \nBorobudur 4-7 days
-        \n\n&#8226;>10 years old: USD 100
+        \n\nBorobudur 4-7 days
+        \n&#8226;>10 years old: USD 100
         \n&#8226;aged 3 to 10: USD 50</string>
-    <string name="call_center">Call Center: 024 8646 2345</string>
-    <string name="email_one">Email: marketing@borobudurpark.co.id</string>
-    <string name="email_two">Email: info@borobudurpark.co.id</string>
+    <string name="call_center_section">Call Center:</string>
+    <string name="email_one_section">Email 1:</string>
+    <string name="email_two_section">Email 2:</string>
+    <string name="call_center_section_content">024 8646 2345</string>
+    <string name="email_one_section_content">marketing@borobudurpark.co.id</string>
+    <string name="email_two_section_content">info@borobudurpark.co.id</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
