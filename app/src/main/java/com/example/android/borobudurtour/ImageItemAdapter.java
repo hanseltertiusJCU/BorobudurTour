@@ -1,6 +1,7 @@
 package com.example.android.borobudurtour;
 
 import android.app.Activity;
+import android.util.DisplayMetrics;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -28,11 +29,19 @@ public class ImageItemAdapter extends ArrayAdapter<Item> {
         // Get the {@link Item} object located at this position in the list
         Item currentItem = getItem(position);
 
+        // Find the height of the screen of the device
+        DisplayMetrics metrics = new DisplayMetrics();
+        ((Activity)getContext()).getWindowManager().getDefaultDisplay().getMetrics(metrics);
+
+        int height = metrics.heightPixels;
+
         // Refer the item ImageView based on item_list.xml
         ImageView itemImageView = (ImageView) listItemView.findViewById(R.id.content_image);
         // Check if the item has image resource
         if(currentItem.hasImageResource()){
             itemImageView.setImageResource(currentItem.getmImageResource());
+            // Set the minimum height of ImageView based on the device
+            itemImageView.setMinimumHeight(height);
             itemImageView.setVisibility(View.VISIBLE);
         } else {
             // Set the item image visibility to gone, which takes no space
